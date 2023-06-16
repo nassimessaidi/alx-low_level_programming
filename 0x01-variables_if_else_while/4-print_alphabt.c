@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  *
- * Description: '3-print_alphabets'
+ * Description: '4-print_alphabt'
  *
  * Return: Always 0 (Success)
  * betty style doc for function main goes there
@@ -13,9 +13,11 @@ int main(void)
 	char c;
 
 	for (c = 'a'; c <= 'z'; c++)
+	{
+		if (c == 'e' || c == 'q')
+			continue;
 		putchar(c);
-	for (c = 'A'; c <= 'Z'; c++)
-		putchar(c);
+	}
 	putchar('\n');
 	return (0);
 }
