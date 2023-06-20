@@ -7,7 +7,7 @@
  * betty style doc for function main goes there
 */
 
-int _islower(int c)
+int _isalpha(int c)
 {
 	int r;
 
