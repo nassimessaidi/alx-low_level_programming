@@ -7,12 +7,12 @@
  *
  * Return: pointer to the node we're looking for, or NULL
  */
-listint_t *get_nodeint_at_index(listint_t *head, unsigned int idx)
+listint_t *get_nodeint_at_index(listint_t *head, unsigned int index)
 {
 	unsigned int i = 0;
 	listint_t *tmp = head;
 
-	while (tmp && i < idx)
+	while (tmp && i < index)
 	{
 		tmp = tmp->next;
 		i++;
